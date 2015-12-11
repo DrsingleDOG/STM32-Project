@@ -1,0 +1,29 @@
+*** Creating Trace Output File '.\Output\USART.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_stm32f10x_hd.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\misc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_it.o" ".\output\main.o" --library_type=microlib --strict --scatter ".\Output\USART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\USART.map" -o ".\Output\USART.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\USART.axf'
+### ADS-LD Command File: '.\Output\USART.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\USART.lnp', Handle=0x000004A4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\USART.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
